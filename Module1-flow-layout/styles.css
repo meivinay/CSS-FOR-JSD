@@ -10,6 +10,9 @@ main .light-gray {
     max-width: 800px;
     margin: auto;
 }
+h1 {
+    font-weight: 800;
+}
 .title {
     margin-bottom: 48px;
 }
@@ -25,13 +28,15 @@ main>.max-width-wrapper {
     background: #666666;
     padding-left: 0px;
     padding-bottom: 58px;
+    border-top: 8px solid #999999;
 }
 .intro-chunk p {
     max-width: 415px;
 }
 p {
     margin-bottom: 16px;
-
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 .intro-chunk p strong {
     font-weight: 800;
@@ -43,6 +48,8 @@ p {
     padding-left: 24px;
     padding-top: 8px;
     padding-bottom: 0.1px;
+    border-bottom: 8px solid #999999;
+
 }
 .card p {
     margin-top: 22px;
@@ -54,6 +61,7 @@ p {
     background: #FFBF00;
     margin-left: -32px;
     max-width: 374px;
+    border-bottom: 8px solid #CC9900;;
 }
 
 
